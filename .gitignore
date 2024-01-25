@@ -1,0 +1,7 @@
+﻿# Rider 캐시
+.idea/
+
+# Visual Studio 캐시
+.vs/
+.vscode/
+.vsconfig
