@@ -1,0 +1,12 @@
+﻿name: lint-pull-request
+author: Eu4ng <eu4ng97@gmail.com>
+description: Pull Request 가 Conventional Commits 규칙을 준수하는지 검사
+runs:
+    using: 'node20'
+    main: 'index.js'
+branding:
+    icon: 'shield'
+    color: 'green'
+inputs:
+    config:
+        description: "commitlint configuration"
